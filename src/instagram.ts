@@ -33,7 +33,7 @@ export class Instagram {
         }
     }
 
-    async getUserPostByAccessToken(userId: string, accessToken: string) {
+    async getUserPostByAccessTokens(userId: string, accessToken: string) {
         await axios.get('https://graph.instagram.com/v17.0/' + userId + '/media', {
             params: {
                 access_token: accessToken,
