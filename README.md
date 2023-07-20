@@ -4,10 +4,10 @@ Use for tellit third party login
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Install this library by npm.
 
 ```bash
-pip install foobar
+npm install -i git@github.com:Tell-it/third-party-login.git
 ```
 
 ## Usage
